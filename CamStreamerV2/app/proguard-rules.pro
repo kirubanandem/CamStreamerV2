@@ -1,0 +1,4 @@
+-keep class fi.iki.elonen.** { *; }
+-keep class com.camstreamer.app.** { *; }
+-dontwarn fi.iki.elonen.**
+-dontwarn java.lang.invoke.**
